@@ -6,7 +6,7 @@ const breedContainer = document.getElementById("breedContainer");
 // Function to get random dog image
 function loadDogImage() {
   fetch("https://api.thedogapi.com/v1/images/search", {
-    headers: { "x-api-key": live_yxSPPmitVewn8XYl6QXEqZlhqk9ETir1aKqLB3XHSqhV351MO5abXogSKsr5WYEn }
+    headers: { "x-api-key":X-Api-Key: live_cZo89Dr1trs81LaUG6cKpNexrmPjkX6IDQfarW3ayWGAvxklv9Q1osfUoNF9iIh7 }
   })
     .then(res => res.json())
     .then(data => {
@@ -18,7 +18,7 @@ function loadDogImage() {
 // Function to get list of dog breeds
 function loadBreeds() {
   fetch("https://api.thedogapi.com/v1/breeds", {
-    headers: { "x-api-key": live_yxSPPmitVewn8XYl6QXEqZlhqk9ETir1aKqLB3XHSqhV351MO5abXogSKsr5WYEn }
+    headers: { "x-api-key": X-Api-Key: live_cZo89Dr1trs81LaUG6cKpNexrmPjkX6IDQfarW3ayWGAvxklv9Q1osfUoNF9iIh7 }
   })
     .then(res => res.json())
     .then(data => {
